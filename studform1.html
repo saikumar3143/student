@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Website login form</title>
+        <link rel="icon" href="https://shorturl.at/asAV7">
+        <link rel="stylesheet" href="studform.css">
+    </head>
+    <form autocomplete="on">
+    <body class="container">
+        <div>
+            <h1>Application form</h1><br>
+
+        <label> Student name</label><span>*</span>
+            <input type="text" id="name" placeholder="name"><br>
+        <label>Student Number</label><span>*</span>
+        <input type="number" id="name" maximumlength="10"  pattern="[0-9]{10}" required  placeholder="number"><br>
+        <label> Phone number</label><span>*</span>
+        <input type="text" id="name" placeholder="name"><br>
+        <label>Branches</label><span>*</span>
+        <select id="branch" name="branch">
+            <option value="CSE">CSE</option>
+            <option value="ECE">ECE</option>
+            <option value="ME">ME</option>
+             <option value="EEE">EEE</option>
+            <option value="CE">CE</option><br>
+        </select>
+        <br>
+        <a>
+               <input type="checkbox" name="n1" n1!="n2"><label>section A</label>
+                <input type="checkbox" name="n2" n2!="n1"><label>section B</label>
+                <input type="checkbox" name="n3"><label>section C</label>
+                <br></a>
+        <p>
+            <label>Email Id</label> <span>*</span> 
+            <input type="email" id="mid" name="mid" required placeholder="studentname@gmail.com">
+        </p>
+        <p>
+            <label></label>
+            <select id="year" name="year">
+                <option value="1">First year</option>
+                <option value="2">second year</option>
+                <option value="3 ">third year</option>
+                 <option value="4">fourth year</option>
+                
+            </select>
+        </p>
+        <p>
+            <label>Date of joining</label> <span>*</span> 
+            <input type="date" id="mid" name="mid" required placeholder="select">
+        </p>
+    
+        <p class="button" align="center">&nbsp;       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      &nbsp;
+            <input type="reset" id="button" name="button">&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="button" onclick="alert('your data is saved')">Submit</button>&nbsp;&nbsp;&nbsp;
+            <button type="button" onclick="alert('please wait some time')">Next</button>
+        </p>   
+
+        <footer align="center">
+           &nbsp; Any questions to ask 
+            please contact the helpdesk.educational@management.com
+        </footer> 
+    </div>
+</form>
+    </body>

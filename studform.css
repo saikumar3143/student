@@ -1,0 +1,60 @@
+div{
+    background-color:rgb(33, 1, 28);
+    width:420px;
+	border-radius:22px;
+	box-shadow:2px 2px 15px blue;
+	margin:auto;
+	padding:20px;
+	color:#f3eded;
+}
+h1{
+    background:#ce1371;
+	width:380px;
+	border-radius:25px;
+	box-shadow:2px 2px 15px blue;
+	margin:auto;
+	padding:20px;
+	align-items: center;
+	color:rgb(18, 203, 98);
+}
+span{
+    color: red;
+}
+.button{
+    display: flex 20%,20%;
+    align-items: center 20%,30%;
+    padding-right: 60px;
+    width:300px;
+	height:45;
+	font-size:30px;
+	background:linear-gradient(to right,red,);
+	color:rgb(219, 128, 18);
+	border:0;
+	border-radius:5px;
+	transition: 600ms;
+}
+button:hover{
+	cursor:pointer;
+	background:linear-gradient(red ,green, grey);
+	border-radius:20px;
+    border: overflow;
+}
+[type="text"],[type="email"],[type="number"]select{
+	width:190px;
+	font-size:18px;
+	border:none;
+	outline:none;
+	padding-left:10px;
+	padding-right:10px;
+}
+label,span{
+	font-size:24px;align-items: center;
+    padding: 2px;
+}
+.container{
+	background:linear-gradient(blue,green,violet);
+background-origin:30px ;
+background-size:cover;
+background-position: left;
+}
+

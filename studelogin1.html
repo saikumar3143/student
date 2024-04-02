@@ -1,0 +1,73 @@
+
+<html>
+    <head>
+        <title>form create all the attributes</title>
+        <link rel="icon" href="images/best.jpg">
+        <link rel="stylesheet" href="studform.css">
+    </head>
+    <form autocomplete="on">
+    <body class="container">
+        <div>
+            <h1>All form attributes</h1><br>
+            <p>
+                <input type="radio" name="title" value="Mr">
+                <label>Mr </label>
+                <input type="radio" name="title" value="Mrs">
+                <label>Mrs </label>
+                <input type="radio" name="title" value="Dr">
+                <label>Dr</label>
+            </p>&nbsp;
+        <label>Student Name</label><span>*</span>
+        <input type="text" id="name" max="20" min="2" required placeholder="Name"><br>
+        <label>Student serial no</label>
+        <input type="number" id="name" min="1" max="25" required placeholder="Number max 1" max="25"><br>
+        <label>Student Number</label><span>*</span>
+        <input type="number" id="name" maximumlength="10" required placeholder="start 101"><br>
+        <label>Branch</label><span>*</span>
+        <select id="branch" name="branch">
+            <option value="CSE">CSE</option>
+            <option value="ECE">ECE</option>
+            <option value="CE">CE</option>
+             <option value="EEE">EEE</option>
+            <option value="ME">ME</option><br>
+        </select>
+            <select>
+                <input type="checkbox" name="n1"><label>section A</label>
+                <input type="checkbox" name="n2"><label>section B</label>
+                <input type="checkbox" name="n3"><label>section C</label>
+                <br></select>
+        <p>
+            <label>Contact number</label> <span>*</span>
+            <input type="text" id="phone" name="phone" required maxlength="10" placeholder="give 10 numbers" pattern="[0-9]{10}">
+        </p>
+        <p>
+            <label>Email Id</label> <span>*</span>
+            <input type="email" id="mid" name="mid" required placeholder="studentname@gmail.com">
+        </p>
+        <p>
+            <label>file upload</label> <span>*</span>
+            <input type="file" id="mid" name="mid" accept=".doc,.pdf" multiple required placeholder="file upload here">
+        </p>
+        <p>
+            <label>Date</label> <span>*</span>
+            <input type="date" id="mid" name="mid" required placeholder="select">
+        </p>
+        <p>
+            <label>password</label> <span>*</span>
+            <input type="password" id="mid" name="mid" required placeholder="abc@#1234">
+        </p>
+        <p>
+            <label> enter captcha</label> <span>*</span>
+            <input type="captcha" id="mid" name="mid" required >
+        </p>
+        <p class="button" align="center">&nbsp;       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      &nbsp;
+            <input type="reset" id="button" name="button">&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="button" onclick="alert('your data is saved')">Submit</button>&nbsp;&nbsp;&nbsp;
+            <button type="button" onclick="alert('please wait some time')">Next</button>
+        </p>    
+    </div>
+</form>
+    </body>
+
+
+

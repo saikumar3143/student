@@ -1,0 +1,247 @@
+/********** Common CSS Starts **********/  
+body, html {
+    height: 100%;
+  }
+  
+  .bg {
+    /* The image used */
+    background-color: rgb(152, 152, 212);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+* {
+     margin:0px;
+     padding:0px;
+}
+ html, body {
+     font-family: roboto, sans-serif, arial;
+     font-size: 14px;
+     color: #242424;
+}
+ .container {
+     width: 1300px;
+     margin:0px auto;
+}
+ .main-section {
+     width: 100%;
+     float: left;
+     padding:50px 0px 40px 0px;
+}
+ .heading {
+     font-size: 22px;
+     font-weight: 500;
+     align-items: center;
+     border-bottom: 1px solid #ff5722;
+     margin-bottom:25px;
+     color: #ff5722;
+}
+/********** Common CSS Ends **********/
+/********** Logo CSS Starts **********/  
+.logo {
+    width:10%;
+}
+/********** Logo CSS Ends **********//********** Main Menu CSS Starts **********/  
+nav {
+    width: 100%;
+    float: left;
+    background: #ff9c22;
+    padding:15px 0px;
+    border-radius:20px;
+}
+nav a {
+    color: #fff;
+    text-decoration:greenyellow;
+    font-size: 20px;
+    border-right: 1px solid #ffc3c3;
+    padding:2px 20px;
+    border-radius: 10px;
+}
+/********** Main Menu CSS Ends **********/
+<!-- /********** Slider CSS Starts **********/   -->
+.slider img {
+     width:100%;
+}
+.logo {
+    width:1300px;
+    height:150px;
+}
+.gal1{
+    font-size:40px;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:center;
+    text-decoration: blue;
+    text-shadow: #ff5722;
+}
+.image-shape{
+    width: 100%;
+    min-height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(1,1,2, 1fr);
+    align-items: center;
+    padding:center;
+    left:50%;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    gap: 1.5rem;
+}
+
+  
+
+  /*imagesof a grid formation  */
+  #flex-box {
+    display:flex;
+    justify-content:space-around;
+    text-align:center;
+}
+.flex-item{
+    box-shadow:2px 2px 10px black;
+    border-radius:15px;
+    padding:20px;
+}
+img{
+    width:200px;
+    height:250px;
+    display :flex;
+    row-gap:10px;
+    column-gap: 10px;
+    align-items: center;
+    filter: drop-shadow(10px 7px 10px rgb(126, 181, 128));
+    
+}
+
+.gallery{
+display:flex;
+gap:1rem;
+}
+.gallery>div{
+    flex:1;
+    overflow: hidden;
+    border-radius: 1rem;
+    border-radius: 50%;
+}
+.gal{
+    width:100%;
+    transform: all .5s;
+}
+/********** Gallery CSS Starts **********/  
+.gallery img {
+  width: 24%;
+}
+/**********  Event, Notice Board CSS Starts **********/  
+.event {
+  width: 45%;
+  margin-right: 1%;
+  float: left;
+  border-radius: 45px;
+}
+.event div {
+  padding:10px;
+  background-color: #7a815f;
+  shape-margin:10%;
+}
+.event ul li {
+  margin-bottom: 20px;
+  width: 100%;
+  float: left;
+}
+/* new span  method */
+.new-pic{
+  text-decoration-color: rgb(23, 218, 82);
+  font-stretch: expanded;
+  padding:right;
+  width:2px;
+  height:1px;
+  box-align:center;
+  background-color: rgb(13, 0, 255);
+
+}
+/********** Placement CSS Starts **********/  
+.placement img {
+  border:1px solid #d5acac;
+}
+
+/********** Placement CSS Ends **********/
+/********** Footer CSS Starts **********/  
+.footer {
+  background-color:#8f9563;
+  padding:60px 0px;
+  width:90%;
+  float:left;
+  border-radius: 20px;
+}
+.footer-sect {
+  width:33%;
+  float:left;
+}
+.footer-sect h2 {
+  color:#fff;
+  margin-bottom: 20px;
+}
+.footer-sect p {
+  color: #fff;
+  line-height: 20px;
+  padding:0px 30px 20px 0px;
+}
+.footer-menu li {
+  width: 60%;
+  float: left;
+  margin-bottom: 10px;
+}
+.footer-menu li a {
+  color:#fff;
+  text-decoration: none;
+}
+.footer-contact li {
+  margin-bottom:20px;
+  list-style: none;
+  color: #fff;
+}
+.footer-contact li:hover{
+  color:blue;
+  background:green;
+  }
+.footer-menu li:hover{
+color:blue;
+background:rgb(118, 126, 159);
+}
+/********** Footer CSS Ends **********/
+/********** Placement CSS Starts **********/  
+.placement  {
+  border:1px solid #dfdfdf,green;
+}
+/********** Placement CSS Ends **********/
+/* footer imges merge */
+.img-footer{
+width:10%;
+height:10%;
+padding:30px;
+display: flex;
+align-items: left;
+column-gap: 4px;
+
+float:left;
+border-radius: 50%;
+}
+.img-footer a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.img-footer img {
+  width: 25px;
+  height:25px;
+  padding:8px;
+  border-radius:15px;
+  color:green;
+  background-color: pink;
+  
+}
+/* footer section stops here */
